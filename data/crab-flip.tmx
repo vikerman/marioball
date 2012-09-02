@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="4" height="2" tilewidth="8" tileheight="8">
+ <tileset firstgid="1" name="Tiles1" tilewidth="8" tileheight="8">
+  <image source="Tiles1.png" width="128" height="400"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="4" height="2">
+  <properties>
+   <property name="frame0" value="200"/>
+   <property name="frame1" value="200"/>
+   <property name="frames" value="2"/>
+  </properties>
+  <data>
+   <tile gid="519"/>
+   <tile gid="520"/>
+   <tile gid="521"/>
+   <tile gid="522"/>
+   <tile gid="535"/>
+   <tile gid="536"/>
+   <tile gid="537"/>
+   <tile gid="538"/>
+  </data>
+ </layer>
+ <objectgroup name="Collision" width="4" height="2">
+  <object x="0" y="0">
+   <polyline points="0,0 16,16"/>
+  </object>
+  <object x="16" y="0">
+   <polyline points="0,0 16,16"/>
+  </object>
+ </objectgroup>
+</map>
